@@ -1,6 +1,10 @@
 public class Person {
     public static void main (String[] args){
-        
+        Person person = new Person("John", "Doe", 1985, 6, 15);
+        person.printPerson();
+
+        person.setFirstName("Jane");
+        person.setBirthYear(1990);
     }
     private String firstName;
     private String lastName;
