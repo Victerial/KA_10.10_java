@@ -1,5 +1,16 @@
 public class Date {
     public static void main(String[] args){
+        Date correctDate = new Date(2023, 5, 30);
+        correctDate.printDate();
+
+        Date incorrectDate = new Date(2023, 13, 30);
+        incorrectDate.printDate();
+
+        Date invalidLeapYearDate = new Date(2023, 2, 29);
+        invalidLeapYearDate.printDate();
+
+        Date firstDayOfMonth = new Date(2023, 9, 1);
+        firstDayOfMonth.printDate();
         
     }
     private int year;
