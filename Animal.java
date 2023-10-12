@@ -1,5 +1,14 @@
 public class Animal {
     public static void main(String[] args){
+        Animal animal = new Animal(4, 2, "Steve");
+
+        animal.printAnimal();
+
+        animal.setNumberOfLegs(3);
+        animal.setNumberOfEyes(1);
+        animal.setName("Rex");
+
+        animal.printAnimal();
 
     }
 
